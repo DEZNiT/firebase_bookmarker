@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bookmarks</title>
+
+    <!-- css links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- script firebase -->
+    
+<script src="https://www.gstatic.com/firebasejs/4.5.0/firebase.js"></script>
+    
+</head>
+<body onload="fetchBookmarks()">
+    <div class="container">
+            <div class="row jumbotron ">
+                <div class="col-lg-12">
+                        <button id="btnsignout" class="buttonAdd float-sm-right">Signout</button>
+                    <h1>My Bookmarks</h1>
+                    
+                    <div>
+                    <form id ="bookForm" autocomplete="off">
+                        <div class="form-group">
+                            <br>
+                            <input id= "title" class="input-box " type="text" name="title" placeholder="The Site Title" required>
+                        </div>
+
+                        <div class="form-group">
+                           <br>
+                            <input id="url" class="input-box" type="url" name="url" placeholder="The Site URL" required>
+                        </div>
+                        <button type="submit" class=" buttonAdd"> ADD</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+                  
+        <div  class="row">
+            <div id="results" class="col-lg-12">
+               
+                
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- scripts -->    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    
+    <script src="js/main.js"></script>   
+</body>
+</html>

@@ -1,0 +1,88 @@
+body{
+    background: #313439 !important;
+}
+.jumbotron{
+    color: #ffffff;
+    background: #313439 !important;
+}
+.container{
+    text-align: center;
+    align-content: center;
+}
+
+input[type=text], input[type=url], input[type=email], input[type=password] {
+    background-color: #313439;
+    border: none;
+    border-bottom: 2px solid #DA4E5B;
+    color: #ffffff;
+    outline: none;
+    padding: 12px;
+    text-transform: uppercase;
+}
+input[type=text]:focus, input[type=url]:focus, input[type=email]:focus, input[type=password]:focus {
+    background-color: #313439;
+}
+.input-box{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.card{
+    display:inline-block;
+    color: #ffffff;
+    background-color: #313439;
+    border: 2px solid #DA4E5B;
+    margin-right:20px;
+    margin-top: 20px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.card:hover{
+    
+    background-color: #3D3D3D;
+}
+
+.buttonAdd{
+    background-color: #DA4E5B;
+    color: #ffffff;
+    outline: none;
+    padding: 10px 15px;
+    border: 2px solid #DA4E5B;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.buttonAdd:active, .buttonAdd:focus{
+    outline: none;
+}
+.card-title{
+    margin-bottom: 40px;
+}
+.buttonAdd:hover{
+    background-color: #313439;
+    border: 2px solid #DA4E5B;
+}
+.btnCard{
+    margin: 20px 5px;
+    background-color: #313439;
+    border: 2px solid #DA4E5B;
+    color: #ffffff;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 15px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}
+.btnCard:hover{
+    background-color: #DA4E5B;
+
+}
+
+.btnCard a , a:hover{
+    color: #ffffff;
+    text-transform: none;
+    text-decoration: none;
+
+}
