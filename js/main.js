@@ -1,12 +1,11 @@
 
-        // Initialize Firebase
+        // Initialize Firebase Add your config variables
         const config = {
-          apiKey: "AIzaSyCV7RRr0sAc-lF3MRXUlcqBK4z4E1dMqDg",
-          authDomain: "bookmarker-5c180.firebaseapp.com",
-          databaseURL: "https://bookmarker-5c180.firebaseio.com",
-          projectId: "bookmarker-5c180",
-          storageBucket: "bookmarker-5c180.appspot.com",
-          messagingSenderId: "298440714264"
+          apiKey: "key",
+          authDomain: "your",
+          databaseURL: "your db url",
+          projectId: "your project id",
+          storageBucket: "your bucket"
         };
         firebase.initializeApp(config);
         const database = firebase.database();
